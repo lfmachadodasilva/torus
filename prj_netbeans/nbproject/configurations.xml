@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>../src/bbox.h</itemPath>
+      <itemPath>../src/bsp.h</itemPath>
+      <itemPath>../src/kdtree.h</itemPath>
+      <itemPath>../src/manipulator.h</itemPath>
+      <itemPath>../src/mesh.h</itemPath>
+      <itemPath>../src/torus.h</itemPath>
+      <itemPath>../src/triangle.h</itemPath>
+      <itemPath>../src/util.h</itemPath>
+      <itemPath>../src/vector.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>../src/bsp.cpp</itemPath>
+      <itemPath>../src/kdtree.cpp</itemPath>
+      <itemPath>../src/main.cpp</itemPath>
+      <itemPath>../src/manipulator.cpp</itemPath>
+      <itemPath>../src/mesh.cpp</itemPath>
+      <itemPath>../src/torus.cpp</itemPath>
+      <itemPath>../src/util.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandLine>-lGLU -lglut</commandLine>
+        </ccTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
